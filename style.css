@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Make the entire container background translucent gray */
+.gradio-container {
+    background: rgba(128, 128, 128, 0.5); /* Translucent gray */
+    color: black; /* Black text */
+}
+
+/* Style the chatbot messages */
+.message {
+    background: rgba(255, 255, 255, 0.8); /* Slightly opaque white for message bubbles */
+    color: black; /* Black text for messages */
+    padding: 12px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 10px auto;
+}
+
+/* Style user messages */
+.user {
+    background: rgba(240, 240, 240, 0.8); /* Light gray for user messages */
+    color: black; /* Black text for user messages */
+}
+
+/* Style bot messages */
+.bot {
+    background: rgba(255, 255, 255, 0.8); /* White for bot messages */
+    color: black; /* Black text for bot messages */
+}
