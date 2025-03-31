@@ -1,5 +1,2 @@
 gradio>=4.0
-langchain>=0.1.0
-faiss-cpu
-ollama
-python-dotenv
+ollama>=0.1.0

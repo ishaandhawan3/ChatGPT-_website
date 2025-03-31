@@ -1,7 +1,2 @@
-import os
-
-# Model Configuration
-MODEL_NAME = "gemma:2b"  # Lightweight model that runs locally
-DATABASE_DIR = "./faiss_db"
-DATA_PATH = "./data"
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+MODEL_NAME = "gemma:2b"  # Lightweight model
+MAX_HISTORY = 10  # Keep last 5 exchanges as context
